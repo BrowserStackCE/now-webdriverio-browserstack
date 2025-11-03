@@ -1,29 +1,30 @@
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+  user: process.env.BROWSERSTACK_USERNAME || "BROWSERSTACK_USERNAME",
+  key: process.env.BROWSERSTACK_ACCESS_KEY || "BROWSERSTACK_ACCESS_KEY",
 
   updateJob: false,
-  specs: ['./tests/specs/test.js'],
+  specs: ["./tests/specs/test.js"],
   exclude: [],
 
-  logLevel: 'warn',
+  logLevel: "warn",
   coloredLogs: true,
-  screenshotPath: './errorShots/',
-  baseUrl: '',
+  screenshotPath: "./errorShots/",
+
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
-  connectionRetryCount: 3,
-  hostname: 'hub.browserstack.com',
-  services: [['browserstack']],
+  connectionRetryCount: 1,
+  hostname: "hub.browserstack.com",
+  services: [["browserstack"]],
 
   before: function () {
-    var chai = require('chai');
+    var chai = require("chai");
     global.expect = chai.expect;
     chai.Should();
   },
-  framework: 'mocha',
+
+  framework: "mocha",
   mochaOpts: {
-    ui: 'bdd',
+    ui: "bdd",
     timeout: 60000,
   },
 };

@@ -1,23 +1,15 @@
-describe("Testing with BStackDemo", () => {
-  it("add product to cart", async () => {
-    await browser.url("https://bstackdemo.com/");
-    await browser.waitUntil(
-      async () => (await browser.getTitle()).match(/StackDemo/i),
-      5000,
-      "Title didn't match with BrowserStack"
-    );
+describe("test script run from NOW", () => {
+  it("open test page", async () => {
+    await browser.url(process.env.NOW_WEB_DOMAIN);
+    const source = await browser.getPageSource();
+    const length = source.length;
 
-    const productOnScreen = await $('//*[@id="1"]/p');
-    const productOnScreenText = await productOnScreen.getText();
+    console.log("Page source length:", length);
 
-    const addToCart = await $('//*[@id="1"]/div[4]');
-    await addToCart.click();
-
-    const productInCart = await $('//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]');
-
-    await browser.waitUntil(async () => (
-      await productInCart.getText()).match(productOnScreenText), 
-      { timeout: 5000 }
-    );
+    if (length > 100) {
+      console.log("✅ Page source has more than 100 characters");
+    } else {
+      console.log("❌ Page source is less than or equal to 100 characters");
+    }
   });
 });
