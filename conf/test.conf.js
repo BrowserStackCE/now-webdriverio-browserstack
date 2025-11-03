@@ -4,7 +4,7 @@ const parallelConfig = {
   maxInstances: parseInt(process.env.BSTACK_PARALLELS) || 5,
   commonCapabilities: {
     "bstack:options": {
-      buildIdentifier: "#${DATE_TIME}",
+      buildIdentifier: "#${BUILD_IDENTIFIER}",
       buildName: "browserstack-now-nodejs-web",
       source: "webdriverio:sample-master:v1.2",
     },
@@ -16,7 +16,7 @@ const parallelConfig = {
         testObservability: true,
         testObservabilityOptions: {
           buildTag: "run-3",
-          buildIdentifier: "#${DATE_TIME}",
+          buildIdentifier: "#${BUILD_IDENTIFIER}",
         },
         percy: "true",
         accessibility: "true",
@@ -25,7 +25,6 @@ const parallelConfig = {
     ],
   ],
   capabilities: JSON.parse("[" + process.env.BSTACK_CAPS_JSON + "]")
-    //.replace(/^['"]|['"]$/g, '')
 };
 
 exports.config = { ...baseConfig, ...parallelConfig };
