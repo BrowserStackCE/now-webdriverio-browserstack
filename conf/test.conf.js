@@ -25,7 +25,7 @@ const parallelConfig = {
     ],
   ],
   capabilities: [
-    process.env.BSTACK_CAPS_JSON
+    process.env.BSTACK_CAPS_JSON.replace(/^['"]|['"]$/g, '')
   ],
 };
 
