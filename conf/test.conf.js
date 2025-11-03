@@ -24,10 +24,8 @@ const parallelConfig = {
       },
     ],
   ],
-  capabilities: [
-    JSON.parse(process.env.BSTACK_CAPS_JSON)
+  capabilities: JSON.parse("[" + process.env.BSTACK_CAPS_JSON + "]")
     //.replace(/^['"]|['"]$/g, '')
-  ],
 };
 
 exports.config = { ...baseConfig, ...parallelConfig };
