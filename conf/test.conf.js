@@ -1,7 +1,7 @@
 const { config: baseConfig } = require("./base.conf.js");
 
 const parallelConfig = {
-  maxInstances: process.env.BSTACK_PARALLELS,
+  maxInstances: parseInt(process.env.BSTACK_PARALLELS) || 5,
   commonCapabilities: {
     "bstack:options": {
       buildIdentifier: "#${DATE_TIME}",
@@ -25,7 +25,7 @@ const parallelConfig = {
     ],
   ],
   capabilities: [
-    process.env.BSTACK_CAPS_JSON
+    JSON.parse(process.env.BSTACK_CAPS_JSON)
   ],
 };
 
