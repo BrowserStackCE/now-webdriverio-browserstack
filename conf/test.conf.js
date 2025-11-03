@@ -11,7 +11,13 @@ const parallelConfig = {
   services: [
     [
       'browserstack',
-      { buildIdentifier: '#${BUILD_NUMBER}' },
+      { 
+        buildIdentifier: '#${BUILD_NUMBER}',
+        testObservability: true,
+        testObservabilityOptions: {
+          buildTag: ['bstack_sample']
+      }
+    },
     ],
   ],
   capabilities: [
