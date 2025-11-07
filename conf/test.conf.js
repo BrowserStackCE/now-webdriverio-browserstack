@@ -8,6 +8,10 @@ const parallelConfig = {
       buildIdentifier: "#${BUILD_NUMBER}",
       buildName: "browserstack-now-nodejs-web",
       source: "webdriverio:sample-master:v1.2",
+      networkLogs: "true",
+      consoleLogs: "verbose",
+      performance: "report",
+      debug: "true",
     },
   },
   services: [
@@ -16,15 +20,11 @@ const parallelConfig = {
       {
         testObservability: true,
         testObservabilityOptions: {
-          buildTag: "run-3",
+          buildTag: "run-${BUILD_NUMBER}",
           buildIdentifier: "#${BUILD_NUMBER}",
         },
         percy: "true",
         percyCaptureMode: "auto",
-        debug: "true",
-        networkLogs: "true",
-        consoleLogs: "verbose",
-        performance: "report",
         accessibility: "true",
         accessibilityOptions: {
           wcagVersion: "wcag21a",
