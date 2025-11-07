@@ -1,0 +1,431 @@
+[90m2025-11-07T20:19:04.922Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: 72144fd3-ba5b-454f-bac9-eb5a9d146421
+[90m2025-11-07T20:19:04.922Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {"testObservability":true,"testObservabilityOptions":{"buildTag":"run-3","buildIdentifier":"#${BUILD_NUMBER}"},"percy":"true","percyCaptureMode":"auto","debug":"true","networkLogs":"true","consoleLogs":"verbose","performance":"report","accessibility":"true","accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false}}}
+[90m2025-11-07T20:19:04.922Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"browserName":"Chrome","bstack:options":{"browserVersion":"120.0","os":"Windows","osVersion":"10","projectName":"NOW-Web-Test","buildIdentifier":"#${BUILD_NUMBER}","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2"}},{"browserName":"Safari","bstack:options":{"browserVersion":"15.6","os":"OS X","osVersion":"Monterey","projectName":"NOW-Web-Test","buildIdentifier":"#${BUILD_NUMBER}","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2"}},{"browserName":"Chromium","bstack:options":{"deviceOrientation":"portrait","deviceName":"iPhone 13","osVersion":"15","projectName":"NOW-Web-Test","buildIdentifier":"#${BUILD_NUMBER}","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2"}}]
+[90m2025-11-07T20:19:04.922Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"/Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/conf","specs":["../tests/specs/*.js"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"warn","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":10000,"framework":"mocha","reporters":[],"services":[["browserstack",{"testObservability":true,"testObservabilityOptions":{"buildTag":"run-3","buildIdentifier":"#${BUILD_NUMBER}"},"percy":"true","percyCaptureMode":"auto","debug":"true","networkLogs":"true","consoleLogs":"verbose","performance":"report","accessibility":"true","accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false}}}]],"maxInstances":5,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":1,"execArgv":[],"runnerEnv":{"FORCE_COLOR":"1"},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":60000,"ui":"bdd"},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":10000},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[null],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[],"afterFeature":[],"_":["conf/test.conf.js","conf/test.conf.js"],"$0":"/Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/.bin/wdio","user":"samiran11","key":"w5LPcQ1pNe9baQAq6dAz","updateJob":false,"coloredLogs":true,"screenshotPath":"./errorShots/","commonCapabilities":{"bstack:options":{"projectName":"NOW-Web-Test","buildIdentifier":"#${BUILD_NUMBER}","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2"}}}
+[90m2025-11-07T20:19:04.924Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    sdkRunId: '72144fd3-ba5b-454f-bac9-eb5a9d146421',
+    testhub_uuid: undefined,
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.19.2',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.17.1',
+    buildName: 'browserstack-now-nodejs-web',
+    buildIdentifier: '#${BUILD_NUMBER}',
+    os: 'Darwin',
+    hostname: 'SamiranSaha-FVFG6DARQ05D',
+    productMap: {
+      observability: true,
+      accessibility: 'true',
+      percy: 'true',
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'accessibility', 'percy', 'automate' ],
+    framework: 'mocha'
+  }
+}
+[90m2025-11-07T20:19:05.256Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-11-07T20:19:05.257Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-11-07T20:19:05.257Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2025-11-07T20:19:05.260Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-07T20:19:05.261Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-07T20:19:05.262Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2025-11-07T20:19:10.795Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"accessibility":{"success":true,"options":{"capabilities":[{"name":"accessibilityToken","value":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA"},{"name":"scannerVersion","value":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},{"name":"test_run_id","value":1442790},{"name":"testhub_build_uuid","value":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms"},{"name":"scannerProcessingTimeout","value":30}],"scripts":[{"name":"scan","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const scanStartTime = performance.now();\n  const requestEvent = new CustomEvent('A11Y_SCAN', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      scanStartTime,\n      readinessCheckTime: scanStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = 'A11Y_SCAN_FINISHED';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n"},{"name":"saveResults","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const saveStartTime = performance.now();\n  const requestEvent = new CustomEvent('A11Y_SAVE_RESULTS', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      saveStartTime,\n      readinessCheckTime: saveStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = 'A11Y_RESULTS_SAVED';\n\n  const responseEventListener = (response) => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: response?.detail?.success || false, msg: response?.detail?.msg || 'No response from Accessibility Automation Scanner' });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n"},{"name":"getResults","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS');\n  const responseEvent = 'A11Y_RESULTS_RESPONSE';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n"},{"name":"getResultsSummary","command":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS_SUMMARY');\n  const responseEvent = 'A11Y_RESULTS_SUMMARY';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"}],"commandsToWrap":{"scriptsToRun":["scan","saveResults","getResults","getResultsSummary"],"commands":[{"library":"webdriverio","method":"url","module":"webdriverio","name":"url","class":"Browser"},{"library":"webdriverio","method":"action","module":"webdriverio","name":"action","class":"Browser"},{"library":"webdriverio","method":"actions","module":"webdriverio","name":"actions","class":"Browser"},{"library":"webdriverio","method":"keys","module":"webdriverio","name":"keys","class":"Browser"},{"library":"webdriverio","method":"scroll","module":"webdriverio","name":"scroll","class":"Browser"},{"library":"webdriverio","method":"setWindowSize","module":"webdriverio","name":"setWindowSize","class":"Browser"},{"library":"webdriverio","method":"touchAction","module":"webdriverio","name":"touchAction","class":"Browser"},{"library":"webdriverio","method":"touchAction","module":"webdriverio","name":"touchAction","class":"Element"},{"library":"webdriverio","method":"addValue","module":"webdriverio","name":"addValue","class":"Element"},{"library":"webdriverio","method":"clearValue","module":"webdriverio","name":"clearValue","class":"Element"},{"library":"webdriverio","method":"click","module":"webdriverio","name":"click","class":"Element"},{"library":"webdriverio","method":"doubleClick","module":"webdriverio","name":"doubleClick","class":"Element"},{"library":"webdriverio","method":"dragAndDrop","module":"webdriverio","name":"dragAndDrop","class":"Element"},{"library":"webdriverio","method":"moveTo","module":"webdriverio","name":"moveTo","class":"Element"},{"library":"webdriverio","method":"scrollIntoView","module":"webdriverio","name":"scrollIntoView","class":"Element"},{"library":"webdriverio","method":"selectByAttribute","module":"webdriverio","name":"selectByAttribute","class":"Element"},{"library":"webdriverio","method":"selectByVisibleText","module":"webdriverio","name":"selectByVisibleText","class":"Element"},{"library":"webdriverio","method":"setValue","module":"webdriverio","name":"setValue","class":"Element"},{"library":"webdriverio","method":"call","module":"webdriverio","name":"call","class":"Browser"},{"library":"webdriverio","method":"execute","module":"webdriverio","name":"execute","class":"Browser"},{"library":"webdriverio","method":"executeAsync","module":"webdriverio","name":"executeAsync","class":"Browser"},{"library":"webdriverio","method":"addCommand","module":"webdriverio","name":"addCommand","class":"Browser"},{"library":"webdriverio","method":"acceptAlert","module":"webdriverio","name":"acceptAlert","class":"Browser"},{"library":"webdriverio","method":"dismissAlert","module":"webdriverio","name":"dismissAlert","class":"Browser"},{"library":"webdriverio","method":"sendAlertText","module":"webdriverio","name":"sendAlertText","class":"Browser"}]}},"code":null,"errors":null,"error_trace_id":null},"automate":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"turboscale":null,"build_hashed_id":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIzOTc2MzgwIiwiZ3JvdXBfaWQiOjM5Mjg2NzYsInVzZXJfaWQiOjM5NzYzODAsImJ1aWxkX2hhc2hlZF9pZCI6InBnamp2enBleXhyeGNibGs4bTdjc2l3ZGZiODByNmcyd3FubTFmbXMiLCJwcm9qZWN0X25hbWUiOiJOT1ctV2ViLVRlc3QiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6ImJyb3dzZXJzdGFjay1ub3ctbm9kZWpzLXdlYiIsInByb2R1Y3RfbWFwIjoie1wib2JzZXJ2YWJpbGl0eVwiOnRydWUsXCJhY2Nlc3NpYmlsaXR5XCI6dHJ1ZSxcImF1dG9tYXRlXCI6dHJ1ZSxcImFjY2Vzc2liaWxpdHlBdXRvRW5hYmxlZFwiOmZhbHNlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcImNhZFwiOnRydWUsXCJub25TREtcIjpmYWxzZX0iLCJpc19sb3dfdm9sdW1lIjpmYWxzZSwiaXNfbGNuY19ldmVudCI6ZmFsc2UsInNpZ25pbmdfa2V5X2hhc2giOiIzN2MxMTMxZTRiMmU3NDNjNzY2ZTFkNzBiZjVmMmI1N2RjNjliMTk1ZDMwMGUzMmFlOGQwMjMxMjBhNGE2ZDk3IiwiaWF0IjoxNzYyNTQ2NzQ4LCJleHAiOjE3NjI4OTIzNDh9.6Xiyf87YfqlxySVPuDSxTAgCywHu6KvjCLvt0rVsSBo","discard_build":null,"app_automate":null}
+[90m2025-11-07T20:19:10.795Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Testhub started with id: pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms
+[90m2025-11-07T20:19:10.796Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility scannerVersion https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD
+[90m2025-11-07T20:19:10.799Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-07T20:19:10.800Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-07T20:19:10.938Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Percy binary is up to date (ETag unchanged)
+[90m2025-11-07T20:19:11.875Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:11.875Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:12.878Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:12.878Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:13.881Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:13.881Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:14.885Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:14.885Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:15.887Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:15.887Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:16.891Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:16.891Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:17.894Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:17.894Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:18.896Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:18.896Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:19.901Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request http://127.0.0.1:5338/percy/healthcheck: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:5338
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5338
+  }
+}
+[90m2025-11-07T20:19:19.901Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async nodeRequest (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:1215:22)
+    at async Percy.healthcheck (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2917:20)
+    at async Percy.start (file:///Users/samiran/Documents/se/repos/now-repos/now-webdriverio-browserstack/node_modules/@wdio/browserstack-service/build/index.js:2951:27)
+[90m2025-11-07T20:19:20.920Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2025-11-07T20:19:34.036Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command addValue - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.036Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command clearValue - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.036Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command click - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command doubleClick - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command dragAndDrop - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command moveTo - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command scrollIntoView - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command selectByAttribute - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command selectByVisibleText - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in overwrite command setValue - TypeError: Cannot read properties of undefined (reading 'bind')
+[90m2025-11-07T20:19:34.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2025-11-07T20:19:34.099Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/d5b458923991a20dca53e74fd42caf39c5d3560f.json
+[90m2025-11-07T20:19:34.944Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Windows 10 Chrome 120.0 session: https://automate.browserstack.com/builds/56dc4f323dd2c1cd96188c1359c35bc68d5c5a2a/sessions/d5b458923991a20dca53e74fd42caf39c5d3560f
+[90m2025-11-07T20:19:34.947Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d5b458923991a20dca53e74fd42caf39c5d3560f
+[90m2025-11-07T20:19:34.947Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d5b458923991a20dca53e74fd42caf39c5d3560f.json with request body: 
+[90m2025-11-07T20:19:35.231Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d5b458923991a20dca53e74fd42caf39c5d3560f
+[90m2025-11-07T20:19:35.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d5b458923991a20dca53e74fd42caf39c5d3560f.json with request body: 
+[90m2025-11-07T20:19:35.553Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Automate test case execution has started.
+[90m2025-11-07T20:19:35.554Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"120.0.6099.63","chrome":{"chromedriverVersion":"120.0.6099.62 (93ab19d804d479b507c4694305631dfb65f8e930-refs/branch-heads/6099_56@{#3})","userDataDir":"C:\\Windows\\proxy\\scoped_dir7112_857516308"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:3253"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"ignore","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true,"webdriver.remote.sessionid":"d5b458923991a20dca53e74fd42caf39c5d3560f"}
+[90m2025-11-07T20:19:35.554Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Chrome","bstack:options":{"browserVersion":"120.0","os":"Windows","osVersion":"10","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:35.554Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:35.555Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:35.556Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan for Browser url
+[90m2025-11-07T20:19:35.963Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-07T20:19:35.964Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-07T20:19:35.965Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-07T20:19:36.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2025-11-07T20:19:36.037Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Automate test case execution has ended. Processing for accessibility testing is underway. 
+[90m2025-11-07T20:19:36.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan before saving results
+[90m2025-11-07T20:19:36.086Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2025-11-07T20:19:36.087Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Unable to save accessibility results, Invalid URL.',
+  success: false
+}
+[90m2025-11-07T20:19:36.136Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Accessibility testing for this test case has ended.
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"120.0.6099.63","chrome":{"chromedriverVersion":"120.0.6099.62 (93ab19d804d479b507c4694305631dfb65f8e930-refs/branch-heads/6099_56@{#3})","userDataDir":"C:\\Windows\\proxy\\scoped_dir7112_857516308"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:3253"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"ignore","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true,"webdriver.remote.sessionid":"d5b458923991a20dca53e74fd42caf39c5d3560f"}
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Chrome","bstack:options":{"browserVersion":"120.0","os":"Windows","osVersion":"10","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:36.136Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2025-11-07T20:19:36.139Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d5b458923991a20dca53e74fd42caf39c5d3560f
+[90m2025-11-07T20:19:36.139Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d5b458923991a20dca53e74fd42caf39c5d3560f.json with request body: 
+[90m2025-11-07T20:19:36.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-11-07T20:19:36.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2025-11-07T20:19:36.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2025-11-07T20:19:36.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2025-11-07T20:19:36.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 9
+[90m2025-11-07T20:19:39.452Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-07T20:19:39.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2025-11-07T20:19:39.507Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/c623cf10a24098dc9933ee37fad2f16ea50f129a.json
+[90m2025-11-07T20:19:39.857Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m OS X Monterey Safari 15.6 session: https://automate.browserstack.com/builds/56dc4f323dd2c1cd96188c1359c35bc68d5c5a2a/sessions/c623cf10a24098dc9933ee37fad2f16ea50f129a
+[90m2025-11-07T20:19:39.860Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId c623cf10a24098dc9933ee37fad2f16ea50f129a
+[90m2025-11-07T20:19:39.860Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/c623cf10a24098dc9933ee37fad2f16ea50f129a.json with request body: 
+[90m2025-11-07T20:19:40.089Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Desktop browsers.
+[90m2025-11-07T20:19:40.090Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2025-11-07T20:19:40.129Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/ce3aed16ce526ba9bd8320ed5bb0f4563ad84994.json
+[90m2025-11-07T20:19:40.157Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId c623cf10a24098dc9933ee37fad2f16ea50f129a
+[90m2025-11-07T20:19:40.157Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/c623cf10a24098dc9933ee37fad2f16ea50f129a.json with request body: 
+[90m2025-11-07T20:19:40.321Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-07T20:19:40.321Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 9
+[90m2025-11-07T20:19:40.321Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2025-11-07T20:19:40.321Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-11-07T20:19:40.462Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"safari:platformVersion":"12.5.1","safari:automaticInspection":false,"webkit:WebRTC":{"DisableICECandidateFiltering":false,"DisableInsecureMediaCapture":false},"browserVersion":"15.6.1","strictFileInteractability":false,"browserName":"Safari","safari:useSimulator":false,"safari:automaticProfiling":false,"safari:platformBuildVersion":"21G83","acceptInsecureCerts":false,"setWindowRect":true,"platformName":"macOS","safari:diagnose":false,"webdriver.remote.sessionid":"c623cf10a24098dc9933ee37fad2f16ea50f129a"}
+[90m2025-11-07T20:19:40.462Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Safari","bstack:options":{"browserVersion":"15.6","os":"OS X","osVersion":"Monterey","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:40.463Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:40.463Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:40.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2025-11-07T20:19:40.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"safari:platformVersion":"12.5.1","safari:automaticInspection":false,"webkit:WebRTC":{"DisableICECandidateFiltering":false,"DisableInsecureMediaCapture":false},"browserVersion":"15.6.1","strictFileInteractability":false,"browserName":"Safari","safari:useSimulator":false,"safari:automaticProfiling":false,"safari:platformBuildVersion":"21G83","acceptInsecureCerts":false,"setWindowRect":true,"platformName":"macOS","safari:diagnose":false,"webdriver.remote.sessionid":"c623cf10a24098dc9933ee37fad2f16ea50f129a"}
+[90m2025-11-07T20:19:40.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Safari","bstack:options":{"browserVersion":"15.6","os":"OS X","osVersion":"Monterey","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:40.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:40.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-07T20:19:40.544Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId c623cf10a24098dc9933ee37fad2f16ea50f129a
+[90m2025-11-07T20:19:40.544Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/c623cf10a24098dc9933ee37fad2f16ea50f129a.json with request body: 
+[90m2025-11-07T20:19:40.918Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-11-07T20:19:40.918Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2025-11-07T20:19:40.918Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2025-11-07T20:19:40.919Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2025-11-07T20:19:40.919Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 2
+[90m2025-11-07T20:19:41.001Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m 15 Chromium session: https://automate.browserstack.com/builds/56dc4f323dd2c1cd96188c1359c35bc68d5c5a2a/sessions/ce3aed16ce526ba9bd8320ed5bb0f4563ad84994
+[90m2025-11-07T20:19:41.005Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ce3aed16ce526ba9bd8320ed5bb0f4563ad84994
+[90m2025-11-07T20:19:41.005Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/ce3aed16ce526ba9bd8320ed5bb0f4563ad84994.json with request body: 
+[90m2025-11-07T20:19:41.291Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ce3aed16ce526ba9bd8320ed5bb0f4563ad84994
+[90m2025-11-07T20:19:41.291Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/ce3aed16ce526ba9bd8320ed5bb0f4563ad84994.json with request body: 
+[90m2025-11-07T20:19:41.615Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"safari","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"unhandledPromptBehavior":"ignore","platformName":"iOS","newCommandTimeout":0,"realMobile":"true","deviceName":"iPhone 13","safariIgnoreFraudWarning":true,"orientation":"PORTRAIT","deviceOrientation":"PORTRAIT","noReset":true,"automationName":"XCUITest","keychainPath":"[REDACTED VALUE]","keychainPassword":"[REDACTED VALUE]","useXctestrunFile":true,"bootstrapPath":"/usr/local/.browserstack/config/wda_derived_data_15_2.19.0.9.9.6_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products","browserstack.isTargetBased":"true","udid":"00008110-001079DA26A2801E"}
+[90m2025-11-07T20:19:41.615Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Chromium","bstack:options":{"deviceOrientation":"portrait","deviceName":"iPhone 13","osVersion":"15","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:41.615Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:41.616Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:41.698Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2025-11-07T20:19:41.699Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"safari","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"unhandledPromptBehavior":"ignore","platformName":"iOS","newCommandTimeout":0,"realMobile":"true","deviceName":"iPhone 13","safariIgnoreFraudWarning":true,"orientation":"PORTRAIT","deviceOrientation":"PORTRAIT","noReset":true,"automationName":"XCUITest","keychainPath":"[REDACTED VALUE]","keychainPassword":"[REDACTED VALUE]","useXctestrunFile":true,"bootstrapPath":"/usr/local/.browserstack/config/wda_derived_data_15_2.19.0.9.9.6_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products","browserstack.isTargetBased":"true","udid":"00008110-001079DA26A2801E"}
+[90m2025-11-07T20:19:41.699Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"browserName":"Chromium","bstack:options":{"deviceOrientation":"portrait","deviceName":"iPhone 13","osVersion":"15","projectName":"NOW-Web-Test","buildIdentifier":"#15","buildName":"browserstack-now-nodejs-web","source":"webdriverio:sample-master:v1.2","wdioService":"9.19.2","accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":true,"experimental":false,"advanced":false},"authToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozOTc2MzgwLCJ0ZXN0X3J1bl9pZCI6MTQ0Mjc5MCwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjp0cnVlLCJkb21Gb3JnZSI6ZmFsc2UsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6ZmFsc2UsImFpIjp0cnVlLCJjb2xvckNvbnRyYXN0QUkiOmZhbHNlLCJpbnRlcm1lZGlhdGVTY2FuUHJpb3JpdGl6ZWQiOmZhbHNlLCJ1c2VFeHRDdHgiOmZhbHNlLCJydW5UeXBlQU9wdCI6ZmFsc2UsImFsbG93Q3Jvc3NPcmlnaW5JZnJhbWUiOmZhbHNlLCJ0YXJnZXRGb3JtYXQiOiJjc3MiLCJlbmFibGVDeXByZXNzU1BBIjpmYWxzZX0sInNjYW5uZXJfdmVyc2lvbiI6IjQuMjUuMC4wIiwiYWR2YW5jZWRfc2Nhbl90aW1lb3V0IjoxNSwicmN0IjoyNSwiZ3JvdXBfaWQiOjM5Mjg2NzYsImF1dG9tYXRpb24iOnRydWUsInJ1bm5lciI6IkFVVCIsIm9wdGltaXphdGlvbiI6dHJ1ZSwic2NvcmUiOnRydWUsInF1ZXJ5X3BhcmFtcyI6ZmFsc2UsInNjb3BlX2tleSI6MTQ0Mjc5MCwicHJpb3JpdGl6ZWQiOmZhbHNlLCJncnJfem9uZSI6IiIsIndpbjEzN2ZpeCI6ZmFsc2UsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjcxOTU0OH0.pPz7PHJYlv_N3N7ne6tfak1pj5WnhhEuFGRje9cqtnA","scannerVersion":"https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1762719548&Signature=UhEUXzHaPt11fm9ZKkdnMcO3Nkewhj69kU6~KCGifIyjJkXDrI9dNsFvaLNWW4M9Jup2aln9v8MIG9SOEu~z3wOoOFp3QcLhuf2Vpxm05gfBrBB6SDfK0FfszshvYeARhucWGG~ssVzyZbITtpwrFL-L1VFEImQpz01D9J6XCcQ2UKB5XaLULmMixSMFaPGsGIsueYzlwVe2IrPTIb3v~vCHpFCZV2FdsYHTJqa233eAZksnQTHjIWDpoQ1pleWFlly2SB93Xgw3F~GiaMaBpk4ith7ttxSJquK~juefFLchVb7nu0EZBrV1VhfgKlAmWem4tftbHaDOaeEu47LEBg__&Key-Pair-Id=KAD1XVTFMDAOD"},"testhubBuildUuid":"pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms","buildProductMap":{"observability":true,"accessibility":true,"percy":"true","automate":true,"app_automate":false}}}
+[90m2025-11-07T20:19:41.699Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got osVersion from user bstack options
+[90m2025-11-07T20:19:41.699Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-07T20:19:41.701Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ce3aed16ce526ba9bd8320ed5bb0f4563ad84994
+[90m2025-11-07T20:19:41.701Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/ce3aed16ce526ba9bd8320ed5bb0f4563ad84994.json with request body: 
+[90m2025-11-07T20:19:42.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-11-07T20:19:42.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2025-11-07T20:19:42.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2025-11-07T20:19:42.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2025-11-07T20:19:42.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 2
+[90m2025-11-07T20:19:42.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:42.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2025-11-07T20:19:42.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2025-11-07T20:19:42.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-07T20:19:42.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2025-11-07T20:19:44.538Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-07T20:19:44.538Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 2
+[90m2025-11-07T20:19:44.538Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2025-11-07T20:19:44.538Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-11-07T20:19:45.739Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-07T20:19:45.739Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 2
+[90m2025-11-07T20:19:45.740Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2025-11-07T20:19:45.740Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-11-07T20:19:47.147Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:47.148Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2025-11-07T20:19:47.148Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2025-11-07T20:19:47.148Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-07T20:19:47.148Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2025-11-07T20:19:48.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-07T20:19:48.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2025-11-07T20:19:48.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2025-11-07T20:19:48.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-07T20:19:48.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2025-11-07T20:19:48.576Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2025-11-07T20:19:48.576Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2025-11-07T20:19:52.367Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2025-11-07T20:19:52.370Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: 72144fd3-ba5b-454f-bac9-eb5a9d146421 testhub id: pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms
+[90m2025-11-07T20:19:52.486Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-33448.json
+[90m2025-11-07T20:19:52.487Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-33450.json
+[90m2025-11-07T20:19:52.487Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-33452.json
+[90m2025-11-07T20:19:52.491Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    sdkRunId: '72144fd3-ba5b-454f-bac9-eb5a9d146421',
+    testhub_uuid: 'pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms',
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.19.2',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.17.1',
+    buildName: 'browserstack-now-nodejs-web',
+    buildIdentifier: '#${BUILD_NUMBER}',
+    os: 'Darwin',
+    hostname: 'SamiranSaha-FVFG6DARQ05D',
+    productMap: {
+      observability: true,
+      accessibility: true,
+      percy: 'true',
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'accessibility', 'percy', 'automate' ],
+    framework: 'mocha',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: true,
+        buildHashedId: 'pgjjvzpeyxrxcblk8m7csiwdfb80r6g2wqnm1fms',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 3, sentCount: 3, failedCount: 0 },
+            finished: { triggeredCount: 3, sentCount: 3, failedCount: 0 },
+            failed: { triggeredCount: 3, sentCount: 3, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 7,
+            sentCount: 7,
+            failedCount: 0,
+            http: { triggeredCount: 7, sentCount: 7, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    }
+  }
+}
+[90m2025-11-07T20:19:52.762Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-11-07T20:19:52.762Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-11-07T20:19:56.873Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Upload response: {
+  "status": "success",
+  "message": "Logs upload successful in file - logs.gz"
+}
+[90m2025-11-07T20:19:56.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
+[90m2025-11-07T20:20:06.501Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Successfully uploaded performance events Bravo
