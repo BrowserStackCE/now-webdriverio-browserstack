@@ -20,7 +20,7 @@ const parallelConfig = {
       {
         testObservability: true,
         testObservabilityOptions: {
-          buildTag: "run-#${BUILD_NUMBER}",
+          buildTag: "run-bstack-now-web",
           buildIdentifier: "#${BUILD_NUMBER}",
         },
         percy: "true",
