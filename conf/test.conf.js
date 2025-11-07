@@ -12,7 +12,8 @@ const parallelConfig = {
   },
   services: [
     [
-      "browserstack", {
+      "browserstack",
+      {
         testObservability: true,
         testObservabilityOptions: {
           buildTag: "run-3",
@@ -26,18 +27,18 @@ const parallelConfig = {
         performance: "report",
         accessibility: "true",
         accessibilityOptions: {
-          'wcagVersion': 'wcag21a',
-          'includeIssueType': {
-            'bestPractice': true,
-            'needsReview': true,
-            'experimental': false,
-            'advanced': false,
+          wcagVersion: "wcag21a",
+          includeIssueType: {
+            bestPractice: true,
+            needsReview: true,
+            experimental: false,
+            advanced: false,
           },
-        
+        },
       },
     ],
   ],
-  capabilities: JSON.parse("[" + process.env.BSTACK_CAPS_JSON + "]")
+  capabilities: JSON.parse("[" + process.env.BSTACK_CAPS_JSON + "]"),
 };
 
 exports.config = { ...baseConfig, ...parallelConfig };
