@@ -38,7 +38,7 @@ const parallelConfig = {
       },
     ],
   ],
-  capabilities: JSON.parse("[" + process.env.BSTACK_CAPS_JSON + "]"),
+  capabilities: JSON.parse(process.env.BSTACK_CAPS_JSON),
 };
 
 exports.config = { ...baseConfig, ...parallelConfig };
