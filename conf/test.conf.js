@@ -4,27 +4,33 @@ const parallelConfig = {
   maxInstances: parseInt(process.env.BSTACK_PARALLELS) || 5,
   commonCapabilities: {
     "bstack:options": {
-      projectName: "NOW-Web-Test",
+      userName: process.env.BROWSERSTACK_USERNAME,
+      accessKey: process.env.BROWSERSTACK_ACCESS_KEY,
+      projectName: process.env.BROWSERSTACK_PROJECT_NAME,
       buildIdentifier: "#${BUILD_NUMBER}",
-      buildName: "browserstack-now-nodejs-web",
-      source: "webdriverio:sample-master:v1.2",
+      buildName: process.env.BROWSERSTACK_BUILD_NAME,
+      source: process.env.BROWSERSTACK_BUILD_NAME,
       networkLogs: "true",
       consoleLogs: "verbose",
       performance: "report",
       debug: "true",
+      source: process.env.BROWSERSTACK_BUILD_NAME,
     },
   },
   services: [
     [
       "browserstack",
       {
+        browserstackLocal: process.env.BROWSERSTACK_LOCAL,
         testObservability: true,
         testObservabilityOptions: {
-          buildTag: "run-bstack-now-web",
+          projectName: process.env.BROWSERSTACK_PROJECT_NAME,
+          buildName: process.env.BROWSERSTACK_BUILD_NAME,
+          buildTag: process.env.BROWSERSTACK_BUILD_NAME,
           buildIdentifier: "#${BUILD_NUMBER}",
         },
         percy: "true",
-        percyCaptureMode: "auto",
+        percyCaptureMode: "testcase",
         accessibility: "true",
         accessibilityOptions: {
           wcagVersion: "wcag21a",
