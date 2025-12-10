@@ -21,7 +21,7 @@ const parallelConfig = {
     [
       "browserstack",
       {
-        browserstackLocal: process.env.BROWSERSTACK_LOCAL,
+        browserstackLocal: process.env.BROWSERSTACK_LOCAL_CUSTOM,
         opts: {
           force: true,
           localIdentifier: "browserstack-now-local",
