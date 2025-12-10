@@ -22,10 +22,6 @@ const parallelConfig = {
       "browserstack",
       {
         browserstackLocal: process.env.BROWSERSTACK_LOCAL_CUSTOM,
-        opts: {
-          force: true,
-          localIdentifier: "browserstack-now-local",
-        },
         testObservability: true,
         testObservabilityOptions: {
           projectName: process.env.BROWSERSTACK_PROJECT_NAME,
