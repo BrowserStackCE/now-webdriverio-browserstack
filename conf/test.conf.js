@@ -15,14 +15,14 @@ const parallelConfig = {
       performance: "report",
       debug: "true",
       source: process.env.BROWSERSTACK_BUILD_NAME,
-      "local": process.env.BROWSERSTACK_LOCAL_CUSTOM,
+      "local": "true",
     },
   },
   services: [
     [
       "browserstack",
       {
-        browserstackLocal: process.env.BROWSERSTACK_LOCAL_CUSTOM,
+        browserstackLocal: "true",
         testObservability: true,
         testObservabilityOptions: {
           projectName: process.env.BROWSERSTACK_PROJECT_NAME,
